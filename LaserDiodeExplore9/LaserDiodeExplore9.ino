@@ -24,7 +24,7 @@ void activateLaser() {
 void checkSensor() {
 
   // Turn on the buzzer if LDR value is low, else turn it off
-  digitalWrite(buzzerPin, (ldrValue == LOW) ? HIGH : LOW); // ternary operator (condition) ? true_value : false_value
+  digitalWrite(buzzerPin, (ldrValue == HIGH) ? HIGH : LOW); // ternary operator (condition) ? true_value : false_value
 
   // Print "High" if LDR value is low, else print "Low" to serial monitor
   Serial.println((ldrValue == LOW) ? "High" : "Low"); 
@@ -32,6 +32,4 @@ void checkSensor() {
   delay(500); // Adjust the delay as needed for stability
 
 }
-  
-  delay(500); // Adjust the delay as needed for stability
-}
+
