@@ -14,7 +14,7 @@ void setup() {
 void loop() {
   ldrValue = digitalRead(ldrPin); // Read LDR sensor value
   digitalWrite(laserPin, HIGH);
-  if (ldrValue == LOW) {
+  if (ldrValue == HIGH) {
     digitalWrite(buzzerPin, HIGH);
     Serial.println("High");
   } else { 
