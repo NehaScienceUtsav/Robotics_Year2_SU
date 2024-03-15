@@ -22,7 +22,7 @@ void activateLaser() {
 }
 
 void checkSensor() {
-  if (ldrValue == LOW) {
+  if (ldrValue == HIGH) {
     digitalWrite(buzzerPin, HIGH); //
     Serial.println("High");
   } else {
