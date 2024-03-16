@@ -1,5 +1,5 @@
 #define MQ2pin A2 // Use A0 for analog input
-#define LEDpin 13 // Use pin 13 for the LED
+#define LEDpin 2 // Use pin 13 for the LED
 
 void setup() {
   Serial.begin(9600); // Sets the serial port to 9600
