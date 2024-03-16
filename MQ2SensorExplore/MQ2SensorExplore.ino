@@ -1,4 +1,4 @@
-#define MQ2pin A3 // Use A0 for analog input
+#define MQ2pin A2 // Use A0 for analog input
 #define LEDpin 13 // Use pin 13 for the LED
 
 void setup() {
