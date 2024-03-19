@@ -11,7 +11,7 @@ void setup() {
 void loop() {
   int flameValue = digitalRead(flamePin);
 
-  if (flameValue == HIGH) {
+  if (flameValue == LOW) {
     if (flameStartTime == 0) {
       // Flame just detected, record the time
       flameStartTime = millis();
