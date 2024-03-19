@@ -10,7 +10,7 @@ void setup() {
 void loop() {
   int flameValue = digitalRead(flamePin);
 
-  if (flameValue == HIGH) {
+  if (flameValue == LOW) {
     Serial.println("Flame Detected!");
     triggerBuzzer();
     // You can add more actions or functions here when a flame is detected
