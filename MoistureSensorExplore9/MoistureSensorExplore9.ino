@@ -41,11 +41,11 @@ void loop() {
 
   // Control the LEDs based on moisture percentage
   if (moisturePercentage > 50) {
-    digitalWrite(greenLedPin, HIGH); // Turn on green LED
-    digitalWrite(redLedPin, LOW);    // Turn off red LED
+    digitalWrite(greenLedPin, LOW); // Turn on green LED
+    digitalWrite(redLedPin, HIGH);    // Turn off red LED
   } else {
-    digitalWrite(greenLedPin, LOW);  // Turn off green LED
-    digitalWrite(redLedPin, HIGH);  // Turn on red LED
+    digitalWrite(greenLedPin, HIGH);  // Turn off green LED
+    digitalWrite(redLedPin, LOW);  // Turn on red LED
   }
 
   // Add a delay to avoid rapid readings
