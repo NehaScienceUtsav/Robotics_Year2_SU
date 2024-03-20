@@ -4,8 +4,8 @@
 const int soilMoisturePin = A2;
 
 // Define the pins for TM1637 display (change according to your wiring)
-#define CLK 3
-#define DIO 4
+#define CLK 8
+#define DIO 9
 
 // Create a TM1637Display object
 TM1637Display display(CLK, DIO);
