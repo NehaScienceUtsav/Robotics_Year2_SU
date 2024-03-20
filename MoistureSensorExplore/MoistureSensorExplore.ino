@@ -1,7 +1,7 @@
 #include <TM1637Display.h>
 
 // Define the analog pin for the soil moisture sensor
-const int soilMoisturePin = A5;
+const int soilMoisturePin = A2;
 
 // Define the pins for TM1637 display (change according to your wiring)
 #define CLK 3
